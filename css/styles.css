@@ -126,6 +126,26 @@ img {
   border: 2px solid hsl(0, 0%, 95%);
 }
 
+
+
+@media (min-width:1440px) {
+  .cards-container {
+    flex-direction: row;
+  }
+
+  .card-1 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+
+  .card-3 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
 /* border radius???
    mixed up _ with - ... how to fix previous commits?????
    unstyled font flashes when page loads... HOW TO FIX
